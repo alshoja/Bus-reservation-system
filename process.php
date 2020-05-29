@@ -31,35 +31,35 @@
 			<fieldset class="row1">
 				<legend>Travel Information</legend>
 				<p>
-					<label>BUS Name
+					<label>BUS Name :
 					</label>
-					<input name="bus" type="text" readonly="readonly" value="<?php echo $bus ?>" />
-					<label>Date of journey
+					<input disabled name="bus" type="text" readonly="readonly" value="<?php echo $bus ?>" />
+					<label> Date :
 					</label>
-					<input type="text" readonly="readonly" class="small" value="<?php echo $day ?>" />
-					<input type="text" readonly="readonly" class="small" value="<?php echo $month ?>" />
-					<input type="text" readonly="readonly" class="small" value="2020" />
-					<label>Bus Type
+					<input disabled type="text" readonly="readonly" class="small" value="<?php echo $day ?>" />
+					<input disabled type="text" readonly="readonly" class="small" value="<?php echo $month ?>" />
+					<input disabled type="text" readonly="readonly" class="small" value="2020" />
+					<label>Bus Type :
 					</label>
-					<input type="text" readonly="readonly" value="<?php echo $type ?>" />
+					<input disabled type="text" readonly="readonly" value="<?php echo $type ?>" />
 
 				</p>
 				<p>
-					<label>Boarding From
+					<label>From :
 					</label>
-					<input name="from" type="text" readonly="readonly" value="<?php echo $from ?>" />
-					<label>To
+					<input disabled name="from" type="text" readonly="readonly" value="<?php echo $from ?>" />
+					<label>To :
 					</label>
-					<input name="to" type="text" readonly="readonly" value="<?php echo $to ?>" />
-					<label>Via (Root)
+					<input disabled name="to" type="text" readonly="readonly" value="<?php echo $to ?>" />
+					<label>Via (Root) :
 					</label>
-					<input type="text" readonly="readonly" value="<?php echo $root ?>" />
+					<input disabled type="text" readonly="readonly" value="<?php echo $root ?>" />
 
 				</p>
 				<p>
-					<label>Mobile
+					<label>Mobile :
 					</label>
-					<input name="mob" type="text" readonly="readonly" value="<?php echo $mob ?>" />
+					<input disabled name="mob" type="text" readonly="readonly" value="<?php echo $mob ?>" />
 				</p>
 
 				<div class="clear"></div>
@@ -76,23 +76,23 @@
 							<th>Gender</th>
 							<th>Bearth Pre</th>
 						</tr>
-						<?php foreach ($BX_NAME as $a => $b) { ?>
+						<?php foreach ($BX_NAME as $row => $b) { ?>
 							<tr>
 								<td>
-									<?php echo $a + 1; ?>
+									<?php echo $row + 1; ?>
 								</td>
 								<td>
-									<?php echo $BX_NAME[$a]; ?>
+									<?php echo $BX_NAME[$row]; ?>
 								</td>
 								<td>
 
-									<?php echo $BX_age[$a]; ?>
+									<?php echo $BX_age[$row]; ?>
 								</td>
 								<td>
-									<?php echo $BX_gender[$a]; ?>
+									<?php echo $BX_gender[$row]; ?>
 								</td>
 								<td>
-									<?php echo $BX_birth[$a]; ?>
+									<?php echo $BX_birth[$row]; ?>
 								</td>
 							</tr>
 			<?php } ?>
