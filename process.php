@@ -3,14 +3,13 @@
 
 <head>
 	<title>Ticketing System</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
 <body>
-	<div class="header">
-		<h1>Ticket Reservation</h1>
-	</div>
+
 	<form action="" class="register">
 		<h1>Reservation Details</h1>
 		<?php if (isset($_POST) == true && empty($_POST) == false) :
@@ -101,10 +100,10 @@
 				<div class="clear"></div>
 			</fieldset>
 			<fieldset class="row5">
-				<legend>Terms and Condition</legend>
+				<legend>Terms and Conditions</legend>
 				<p>
 					<input class="submit" type="button" value="Make Payment &raquo;" />
-					<a class="submit" href="index.html" type="button"> Back Home <a />
+					<a class="submit" href="index.html" type="button"> Back <a />
 				</p>
 				<div class="clear"></div>
 			</fieldset>
@@ -116,7 +115,7 @@
 		<?php endif; ?>
 		<div class="clear"></div>
 	</form>
-	
+
 	<div class="footer">
 		<p>© 2020 Passenger Tim, all rights reserved</p>
 	</div>
