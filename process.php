@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Bus Ticketing System</title>
+	<title>Ticketing System</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
@@ -12,7 +12,7 @@
 		<h1>Ticket Reservation</h1>
 	</div>
 	<form action="" class="register">
-		<h1>BUS Ticket Reservation</h1>
+		<h1>Reservation Details</h1>
 		<?php if (isset($_POST) == true && empty($_POST) == false) :
 			$chkbox = $_POST['chk'];
 			$bus = $_POST['bus'];
@@ -95,10 +95,10 @@
 									<?php echo $BX_birth[$row]; ?>
 								</td>
 							</tr>
-			<?php } ?>
-			</tbody>
-			</table>
-			<div class="clear"></div>
+						<?php } ?>
+					</tbody>
+				</table>
+				<div class="clear"></div>
 			</fieldset>
 			<fieldset class="row5">
 				<legend>Terms and Condition</legend>
@@ -116,10 +116,8 @@
 		<?php endif; ?>
 		<div class="clear"></div>
 	</form>
+	
 	<div class="footer">
-		<p>The identification details are required during journey. One of the passenger booked on the ticket should
-			have any of the identity cards ( Passport / PAN Card / Driving License / Photo ID card issued by Central
-			/ State Govt / Student Identity Card with photograph) during the journey in original </p>
 		<p>© 2020 Passenger Tim, all rights reserved</p>
 	</div>
 </body>

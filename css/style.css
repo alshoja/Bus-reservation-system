@@ -308,3 +308,12 @@ th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+@media screen and (min-width:500px) {
+
+    img.bus1 {
+        width: 500px;
+        margin-left: 700px;
+        margin-top: -400px;
+    }
+}
