@@ -102,8 +102,8 @@
 			<fieldset class="row5">
 				<legend>Terms and Conditions</legend>
 				<p>
-					<input class="submit" type="button" value="Make Payment &raquo;" />
-					<a class="submit" href="index.html" type="button"> Back <a />
+					<input class="submit" type="button" value="Cancel Ticket &raquo;" />
+					<a class="submit" href="index.html" type="button"> Home <a />
 				</p>
 				<div class="clear"></div>
 			</fieldset>
