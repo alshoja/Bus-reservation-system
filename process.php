@@ -6,6 +6,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/cancel.js"></script>
+
 </head>
 
 <body>
@@ -102,7 +104,7 @@
 			<fieldset class="row5">
 				<legend>Terms and Conditions</legend>
 				<p>
-					<input class="submit" type="button" value="Cancel Ticket &raquo;" />
+					<input class="submit" onclick="cancel()" type="button" value="Cancel Ticket &raquo;" />
 					<a class="submit" href="index.html" type="button"> Home <a />
 				</p>
 				<div class="clear"></div>
