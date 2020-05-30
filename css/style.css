@@ -252,11 +252,11 @@ select:focus {
     background-color: #F1F1F1;
 }
 
-img.bus1 {
+/* img.bus1 {
     width: 700px;
     margin-left: 900px;
     margin-top: -400px;
-}
+} */
 
 p.info {
     font-size: 7pt;
@@ -309,11 +309,15 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
-@media screen and (min-width:500px) {
+input[type=submit]:disabled {
+    background: #dddddd;
+}
+
+@media only screen and (min-width:1000px) {
 
     img.bus1 {
         width: 500px;
-        margin-left: 700px;
+        margin-left: 900px;
         margin-top: -400px;
     }
 }

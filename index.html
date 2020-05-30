@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="js/add-row.js"></script>
+    <script src="js/enable-button.js"></script>
 </head>
 
 <body>
@@ -132,7 +133,7 @@
                 <label>Via *
                 </label>
                 <select name="root">
-                    <option value="Place 1">Place  1
+                    <option value="Place 1">Place 1
                     </option>
                     <option value="Place 2">Place 2
                     </option>
@@ -192,13 +193,15 @@
         <fieldset class="row4">
             <legend>Terms and Conditions</legend>
             <p class="agreement">
-                <input type="checkbox" value="" />
+                <input type="checkbox" onclick="enableButton()" value="" />
                 <label>* I accept the <a href="#">Terms and Conditions</a></label>
             </p>
 
             <div class="clear"></div>
         </fieldset>
-        <input class="submit" type="submit" value="Confirm/Pay &raquo;" />
+        <div class="row">
+            <input class="submit" id="button" type="submit" value="Confirm/Pay &raquo;" disabled>
+        </div>
         <div class="clear"></div>
     </form>
     <div class="image">
